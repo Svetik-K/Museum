@@ -1,0 +1,134 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-size: 10px;
+}
+
+h1 {
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8rem;
+  line-height: 9rem;
+  letter-spacing: 5px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8rem;
+  line-height: 9rem;
+  letter-spacing: 5px;
+}
+
+h3 {
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 3.5rem;
+  letter-spacing: 5px;
+  color: #030303;
+}
+
+.welcome__button {
+  width: 360px;
+  height: 75px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  background-color: #710707;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
+}
+
+.welcome__button:hover {
+  background-color: #9d8665;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #030303;
+  padding: 59px 0 58px;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  gap: 25px;
+}
+
+.logo__text {
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.8rem;
+  line-height: 3.1rem;
+  letter-spacing: 5px;
+  color: #FFFFFF;
+}
+
+.navigation {
+  display: flex;
+  list-style: none;
+}
+
+.navigation li a {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  margin-left: 55px;
+  transition: all ease-in-out 0.5s;
+}
+
+.navigation li a:hover {
+  color: #9d8665;
+}
+
+.welcome {
+  background-color: #030303;
+}
+
+.welcome__wrapper {
+  display: flex;
+}
+
+.welcome__info {
+  padding: 150px 0 272px;
+}
+
+.welcome__info p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.8rem;
+  line-height: 3.3rem;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=style.css.map */

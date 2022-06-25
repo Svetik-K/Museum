@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-size: 10px;
+}
+
+h1 {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8rem;
+    line-height: 9rem;
+    letter-spacing: 5px;
+    color: $color-light;
+    margin: 0;
+}
+h2 {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8rem;
+    line-height: 9rem;
+    letter-spacing: 5px;
+}
+h3 {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.2rem;
+    line-height: 3.5rem;
+    letter-spacing: 5px;
+    color: $color-dark;
+}

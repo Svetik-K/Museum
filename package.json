@@ -1,0 +1,20 @@
+{
+  "name": "museum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass museum/sass/style.scss museum/sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Svetik-K/Museum.git"
+  },
+  "author": "SV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Svetik-K/Museum/issues"
+  },
+  "homepage": "https://github.com/Svetik-K/Museum#readme"
+}
