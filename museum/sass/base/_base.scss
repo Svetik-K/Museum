@@ -1,9 +1,11 @@
 html, body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     scroll-behavior: smooth;
     font-size: 10px;
+}
+* {
+    box-sizing: border-box;
 }
 
 h1 {
@@ -14,7 +16,7 @@ h1 {
     line-height: 9rem;
     letter-spacing: 5px;
     color: $color-light;
-    margin: 0;
+    margin: 0 0 25px 0;
 }
 h2 {
     font-family: 'Forum';

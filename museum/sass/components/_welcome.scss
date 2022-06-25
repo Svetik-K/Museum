@@ -2,13 +2,15 @@
     background-color: $color-dark;
 }
 .welcome__wrapper {
+    position: relative;
     display: flex;
 }
 .welcome__info {
-    // min-width: 598px;
-    padding: 150px 0 272px;
+    width: 598px;
+    position: absolute;
+    top: 150px;
+    left: 0;
 }
-
 .welcome__info p {
     font-family: 'Roboto';
     font-style: normal;
@@ -16,5 +18,47 @@
     font-size: 2.8rem;
     line-height: 3.3rem;
     letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 75px;
     color: $color-light;
+}
+.welcome__slider {
+    margin-left: 440px;
+    padding-bottom: 60px;
+}
+.slider-pagination {
+    width: 600px;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 75px;
+    background-color: $color-dark;
+}
+.slider-pagination__counter {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 4rem;
+    color: $color-light;
+}
+.slider-pagination__dots {
+    width: 180px;
+    display: flex;
+    gap: 25px;
+}
+.dot {
+    width: 16px;
+    height: 16px;
+    background-color: $color-light;
+}
+.dot_active {
+    background-color: $color-gold;
+}
+.arrow-right {
+    margin-left: 20px;
 }
