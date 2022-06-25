@@ -24,7 +24,7 @@
 }
 .welcome__slider {
     margin-left: 440px;
-    padding-bottom: 60px;
+    padding-bottom: 59px;
 }
 .slider-pagination {
     width: 600px;
@@ -35,10 +35,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px 75px;
+    padding: 39px 75px 41px;
     background-color: $color-dark;
 }
 .slider-pagination__counter {
+    width: 76px;
+    display: flex;
+    justify-content: space-between;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;

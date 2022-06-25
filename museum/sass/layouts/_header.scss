@@ -3,6 +3,7 @@
     padding: 59px 0 58px;
 }
 .header__wrapper {
+    height: 33px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,7 +34,7 @@
     line-height: 2.6rem;
     letter-spacing: 2px;
     color: $color-light;
-    margin-left: 55px;
+    margin-left: 56px;
     transition: all ease-in-out 0.5s;
 
     &:hover {
