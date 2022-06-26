@@ -1,8 +1,20 @@
 .virtual-tour {
     padding: 75px 0;
 }
+.virtual-tour__cards {
+    display: flex;
+    flex-basis: 440px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 60px;
+    row-gap: 75px;
+}
 .title_golden {
     margin-bottom: 100px;
+}
+.virtual-card img {
+    width: 440px;
+    height: 285px;
 }
 .vt {
     font-family: 'Roboto';

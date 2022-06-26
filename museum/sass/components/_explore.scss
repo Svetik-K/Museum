@@ -2,6 +2,11 @@
     padding: 75px 0;
     background: $color-dark;
 }
+.explore__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
 .explore__text p {
     font-family: 'Roboto';
     font-style: normal;
@@ -16,6 +21,9 @@
 }
 .explore__text h2 {
     margin-bottom: 102px;
+}
+.explore__text span {
+    color: $color-gold;
 }
 .explore__image {
     padding-top: 15px;
