@@ -94,6 +94,10 @@ h3 {
   background-color: #710707;
 }
 
+.title_light {
+  color: #FFFFFF;
+}
+
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
@@ -155,6 +159,12 @@ h3 {
   flex-wrap: wrap;
   column-gap: 60px;
   row-gap: 75px;
+}
+
+.layout-2-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
 }
 
 .welcome {
@@ -261,5 +271,32 @@ h3 {
   line-height: 2.1rem;
   color: #030303;
   margin: 0;
+}
+
+.explore {
+  padding: 75px 0;
+  background: #030303;
+}
+
+.explore__text p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 3.8rem;
+  color: #FFFFFF;
+  margin: 0 0 26px 0;
+}
+
+.explore__text {
+  width: 660px;
+}
+
+.explore__text h2 {
+  margin-bottom: 102px;
+}
+
+.explore__image {
+  padding-top: 15px;
 }
 /*# sourceMappingURL=style.css.map */
