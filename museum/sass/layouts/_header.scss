@@ -1,0 +1,43 @@
+.header {
+    background-color: $color-dark;
+    padding: 59px 0 58px;
+}
+.header__wrapper {
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    gap: 25px;
+}
+.logo__text {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.8rem;
+    line-height: 3.1rem;
+    letter-spacing: 5px;
+    color: $color-light;
+}
+.navigation {
+    display: flex;
+    list-style: none;
+}
+.navigation li a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+    letter-spacing: 2px;
+    color: $color-light;
+    margin-left: 56px;
+    transition: all ease-in-out 0.5s;
+
+    &:hover {
+        color: $color-gold;
+    }
+}

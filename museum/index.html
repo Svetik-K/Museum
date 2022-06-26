@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sass/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <script src="index.js" defer></script>
+    <title>Museum</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="wrapper header__wrapper">
+                <div class="logo">
+                    <div class="logo__icon"><img src="./assets/icons/logo.svg" alt="logo"></div>
+                    <div class="logo__text">LOUVRE</div>
+                </div>
+                <nav class="header__navigation">
+                    <ul class="navigation">
+                        <li><a href="#">Visiting</a></li>
+                        <li><a href="#">Explore</a></li>
+                        <li><a href="#">Video</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Tickets</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <!-- Main -->
+        <main class="main">
+
+            <section class="welcome">
+                <div class="wrapper welcome__wrapper">
+                    <div class="welcome__info">
+                        <h1>WELCOME TO&nbsp;THE LOUVRE</h1>
+                        <p>From the castle to the museum</p>
+                        <button class="welcome__button">Discover the Louvre</button>
+                    </div>
+                    <div class="welcome__slider">
+                        <div class="slider-image">
+                            <img src="./assets/images/general/welcome_liza.jpg" alt="mona liza">
+                        </div>
+                        <div class="slider-pagination">
+                            <div class="slider-pagination__counter">
+                                <span>01</span>
+                                <span>|</span>
+                                <span>05</span>
+                            </div>
+                            <div class="slider-pagination__dots">
+                                <div class="dot dot_active"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>
+                            <div class="slider-pagination__arrows">
+                                <span class="arrow-left"><img src="./assets/icons/arrow_left.svg" alt="left arrow"></span>
+                                <span class="arrow-right"><img src="./assets/icons/arrow_right.svg" alt="right arrow"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </section>
+
+            <section class="virtual-tour">
+                <div class="wrapper virtual-tour__wrapper">
+                    <h2 class="title title_underlined title_golden">VIRTUAL TOUR</h2>
+                    <div class="virtual-tour__cards">         
+                        <div class="virtual-card">
+                            <img src="./assets/images/virtual_tour/1.jpg" alt="royal palace">
+                            <h3 class="virtual-card__title">ROYAL PALACE</h3>
+                            <p class="vt">360° Virtual Tour</p>
+                            <p class="google">Google Street Panorama View</p>
+                        </div>
+                        <div class="virtual-card">
+                            <img src="./assets/images/virtual_tour/2.jpg" alt="Denon Wing">
+                            <h3 class="virtual-card__title">DENON WING</h3>
+                            <p class="vt">360° Virtual Tour</p>
+                            <p class="google">Google Street Panorama View</p>
+                        </div>
+                        <div class="virtual-card">
+                            <img src="./assets/images/virtual_tour/3.jpg" alt="Colonnade Perrault">
+                            <h3 class="virtual-card__title">COLONNADE PERRAULT</h3>
+                            <p class="vt">360° Virtual Tour</p>
+                            <p class="google">Google Street Panorama View</p>
+                        </div>
+                        <div class="virtual-card">
+                            <img src="./assets/images/virtual_tour/4.jpg" alt="Greek hall">
+                            <h3 class="virtual-card__title">GREEK HALL</h3>
+                            <p class="vt">360° Virtual Tour</p>
+                            <p class="google">Google Street Panorama View</p>
+                        </div>
+                        <div class="virtual-card">
+                            <img src="./assets/images/virtual_tour/5.jpg" alt="Mona Lisa">
+                            <h3 class="virtual-card__title">MONA LISA</h3>
+                            <p class="vt">360° Virtual Tour</p>
+                            <p class="google">Google Street Panorama View</p>
+                        </div>
+                        <div class="virtual-card">
+                            <img src="./assets/images/virtual_tour/6.jpg" alt="Night Palace">
+                            <h3 class="virtual-card__title">NIGHT PALACE</h3>
+                            <p class="vt">360° Virtual Tour</p>
+                            <p class="google">Google Street Panorama View</p>
+                        </div>
+                    </div>
+                </div>     
+            </section>
+
+            <section class="explore">
+                <div class="wrapper explore__wrapper">
+                    <div class="explore__text">
+                        <h2 class="title title_underlined title_light">PICTURE EXPLORE</h2>
+                        <p>Las Meninas is a 1656 painting by Diego Velázquez, the leading artist&nbsp;of&nbsp;the Spanish Golden Age.</p>
+                        <p>It was cleaned in 1984 to remove a <span>"yellow veil"</span> of dust that had gathered since the previous restoration in the 19th century.</p>
+                        <p>The cleaning provoked furious protests, not because the picture had been damaged in any way, but because it looked different.</p>
+                    </div>
+                    <div class="explore__image">
+                        <img src="./assets/images/general/explore_2.jpg" alt="picture">
+                    </div>
+                </div>
+            </section>
+            <section class="video">
+                <div class="wrapper video__wrapper">
+                    <div class="video__text">
+                        <h2 class="title title_golden">VIDEO JOURNEY</h2>
+                        <p>Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code</p>
+                    </div>
+                    <div class="video__player">
+                        <img src="./assets/images/video/square.jpg" alt="Louvre square">
+                        <div class="video__controllers">
+                            <span class="ico ico-play"><img src="./assets/icons/play_icon.svg" alt="play icon"></span>
+                            <input type="range" value="40" min="0" max="100" step="1" class="progress-bar">
+                            <span class="ico ico-volume"><img src="./assets/icons/volume.svg" alt="volume icon"></span>
+                            <input type="range" value="40" min="0" max="100" step="1" class="volume-bar">
+                            <span class="ico ico-screen"><img src="./assets/icons/full_screen.svg" alt="full screen icon"></span>
+                        </div>
+                    </div>
+                    <div class="video__gallery">
+                        <div class="video-item"><img src="./assets/images/video/1.jpg" alt=""></div>
+                        <div class="video-item"><img src="./assets/images/video/2.jpg" alt=""></div>
+                        <div class="video-item"><img src="./assets/images/video/3.jpg" alt=""></div>
+                    </div>
+                </div>   
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+
+        </footer>
+    </div>
+    
+</body>
+</html>

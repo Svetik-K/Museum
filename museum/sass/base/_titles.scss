@@ -1,0 +1,31 @@
+.title_underlined {
+    position: relative;
+}
+.title_underlined::after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: $color-red;
+}
+.title_golden {
+   color: $color-gold;
+}
+.virtual-card__title {
+    position: relative;
+    margin: 25px 0 0 0;
+}
+.virtual-card__title:after {
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: -10px;
+    width: 68%;
+    height: 3px;
+    background-color: $color-red;
+}
+.title_light {
+    color: $color-light;
+}
