@@ -513,4 +513,36 @@ h3 {
 .gallery h2 {
   margin-bottom: 75px;
 }
+
+.gallery__images {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 456px;
+  column-gap: 36px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.column img {
+  width: 100%;
+}
+
+.column-one,
+.column-three {
+  padding-top: 50px;
+}
+
+.gallery__overlay {
+  width: 1440px;
+  height: 360px;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
 /*# sourceMappingURL=style.css.map */
