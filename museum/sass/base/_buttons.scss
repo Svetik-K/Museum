@@ -68,3 +68,16 @@
     background-size: 100%;
     border: none;
 }
+.button-buy {
+    width: 175px;
+    height: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+    letter-spacing: 2px;
+    background-color: $color-dark;
+    color: $color-light;
+    border: none;
+}

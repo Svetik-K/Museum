@@ -171,30 +171,56 @@
             <section class="gallery">
                 <div class="wrapper gallery__wrapper">
                     <h2 class="title title_light">ART GALLERY</h2>
-                    <!-- <div class="gallery__images"> -->
-                        <div class="gallery__images">
-                            <div class="column column-one">
-                                <img src="./assets/images/art_gallery/1.jpg" alt="">
-                                <img src="./assets/images/art_gallery/2.jpg" alt="">
-                                <img src="./assets/images/art_gallery/3.jpg" alt="">
-                                <img src="./assets/images/art_gallery/4.jpg" alt="">
-                            </div>
-                            <div class="column">
-                                <img src="./assets/images/art_gallery/5.jpg" alt="">
-                                <img src="./assets/images/art_gallery/6.jpg" alt="">
-                                <img src="./assets/images/art_gallery/7.jpg" alt="">
-                                <img src="./assets/images/art_gallery/8.jpg" alt="">
-                            </div>
-                            <div class="column column-three">
-                                <img src="./assets/images/art_gallery/9.jpg" alt="">
-                                <img src="./assets/images/art_gallery/10.jpg" alt="">
-                                <img src="./assets/images/art_gallery/11.jpg" alt="">
-                                <img src="./assets/images/art_gallery/12.jpg" alt="">
-                            </div>
-                            <div class="gallery__overlay"></div>
+                    <div class="gallery__images">
+                        <div class="column column-one">
+                            <img src="./assets/images/art_gallery/1.jpg">
+                            <img src="./assets/images/art_gallery/2.jpg">
+                            <img src="./assets/images/art_gallery/3.jpg">
+                            <img src="./assets/images/art_gallery/4.jpg">
                         </div>
-                    <!-- </div> -->
+                        <div class="column">
+                            <img src="./assets/images/art_gallery/5.jpg">
+                            <img src="./assets/images/art_gallery/6.jpg">
+                            <img src="./assets/images/art_gallery/7.jpg">
+                            <img src="./assets/images/art_gallery/8.jpg">
+                        </div>
+                        <div class="column column-three">
+                            <img src="./assets/images/art_gallery/9.jpg">
+                            <img src="./assets/images/art_gallery/10.jpg">
+                            <img src="./assets/images/art_gallery/11.jpg">
+                            <img src="./assets/images/art_gallery/12.jpg">
+                        </div>
+                        <div class="gallery__overlay"></div>
+                    </div>
                 </div>  
+            </section>
+            <section class="tickets" id="tickets">
+                <div class="wrapper tickets__wrapper">
+                    <h2 class="title title_golden title_underlined">BUY TICKETS</h2>
+                    <div class="tickets__order">
+                        <div class="tickets__image">
+                            <img src="./assets/images/general/tickets_img.jpg" alt="">
+                        </div>
+                        <div class="tickets__types">
+                            <h4 class="tickets-title">Ticket Type</h4>
+                            <input type="radio" name="ticket-type" id="permanent">
+                            <label for="permanent">Permanent exhibition</label><br><br>
+                            <input type="radio" name="ticket-type" id="temporary">
+                            <label for="temporary">Temporary exhibition</label><br><br>
+                            <input type="radio" name="ticket-type" id="combined">
+                            <label for="combined">Combined Admission</label>
+                        </div>
+                        <div class="tickets__amount">
+                            <h4 class="amount-title">Amount</h4>
+                            <label for="basic">Basic 18+</label><br>
+                            <input type="number" id="basic" name="quantity" min="1" max="50"><br>
+                            <label for="senior">Senior 65+</label><br>
+                            <input type="number" id="senior" name="quantity" min="1" max="50"><br>
+                            <h4 class="total">Total €220</h4>
+                            <button class="button-buy">Buy Now</button>
+                        </div>
+                    </div>
+                </div>   
             </section>
         </main>
 
