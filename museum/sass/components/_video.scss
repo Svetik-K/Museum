@@ -20,7 +20,12 @@
     color: $color-dark;
     margin: 0;
 }
-
+.video__player {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 40px;
+}
 .video__controllers {
     display: flex;
     justify-content: space-between;
@@ -75,10 +80,43 @@
     border: none;
     background: transparent;
 }
-.video__player {
-    margin-bottom: 40px;
-}
 .video__gallery {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 37px;
+}
+.video-item {
+    position: relative;
+}
+.video__pagination {
+    width: 200px;
+    height: 12px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    margin: 0 auto;
+}
+.brackets-left {
+    width: 10px;
+    height: 12px;
+    background-color: transparent;
+    background-image: url(../../../museum/assets/icons/brackets_left.svg);
+    background-size: 100%;
+}
+.brackets-right {
+    width: 10px;
+    height: 12px;
+    background-color: transparent;
+    background-image: url(../../../museum/assets/icons/brackets_right.svg);
+    background-size: 100%;
+}
+.video-dot {
+    width: 12px;
+    height: 12px;
+    border: none;
+    border-radius: 50%;
+    background-color: $color-dot;
+}
+.video-dot_active {
+    background-color: $color-dot-active;
 }
