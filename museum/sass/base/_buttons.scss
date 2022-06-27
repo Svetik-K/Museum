@@ -18,3 +18,53 @@
         background-color: $color-gold;
     }
 }
+.video__button {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: 29%;
+    left: 42.5%;
+    border: none;
+    background-color: transparent;
+    background-image: url(../../../museum/assets/icons/video_button.svg);
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.button-play {
+    width: 23px;
+    height: 31px;
+    background-color: transparent;
+    background-image: url(../../../museum/assets/icons/play_icon.svg);
+    border: none;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.button-volume {
+    width: 38px;
+    height: 31px;
+    background-color: transparent;
+    background-image: url(../../../museum/assets/icons/volume.svg);
+    border: none;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.button-screen {
+    width: 35px;
+    height: 35px;
+    background-color: transparent;
+    background-image: url(../../../museum/assets/icons/full_screen.svg);
+    border: none;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+.button-youtube {
+    width: 68px;
+    height: 48px;
+    position: absolute;
+    top: 40%;
+    left: 42.5%;
+    background-color: transparent;
+    background-image: url(../../../museum/assets/icons/youtube_icon.svg);
+    background-size: 100%;
+    border: none;
+}
