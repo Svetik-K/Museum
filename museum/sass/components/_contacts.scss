@@ -7,11 +7,11 @@
     align-items: flex-start;
 }
 .contacts h2 {
-    margin-bottom: 75px;
+    margin-bottom: 100px;
 }
 .contacts__info {
     width: 282px;
-    height: 239px;
+    // height: 239px;
 }
 .info__title {
     margin: 0 0 50px;
@@ -23,5 +23,5 @@
     font-size: 2.2rem;
     line-height: 2.6rem;
     color: $color-dark;
-    margin-bottom: 0 0 25px;
+    margin: 0 0 25px;
 }

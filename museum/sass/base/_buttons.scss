@@ -83,3 +83,15 @@
     border: none;
     cursor: pointer;
 }
+.button-minus,
+.button-plus {
+    width: 50px;
+    height: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.2rem;
+    line-height: 3.8rem;
+    border: none;
+    background-color: transparent;
+}

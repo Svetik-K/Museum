@@ -203,26 +203,36 @@
                         </div>
                         <div class="tickets__types">
                             <h4 class="types__title">Ticket Type</h4>
-                            <input type="radio" name="ticket-type" id="permanent">
-                            <label for="permanent">Permanent exhibition</label><br><br>
-                            <input type="radio" name="ticket-type" id="temporary">
-                            <label for="temporary">Temporary exhibition</label><br><br>
-                            <input type="radio" name="ticket-type" id="combined">
+                            <div class="radio-group">
+                                <input type="radio" name="ticket-type" id="permanent">
+                                <label for="permanent">Permanent exhibition</label><br><br>
+                            </div>
+                            <div class="radio-group">
+                                <input type="radio" name="ticket-type" id="temporary">
+                                <label for="temporary">Temporary exhibition</label><br><br>
+                            </div>
+                            <div class="radio-group">
+                                <input type="radio" name="ticket-type" id="combined">
                             <label for="combined">Combined Admission</label>
+                            </div> 
                         </div>
                         <div class="tickets__amount">
                             <h4 class="amount__title">Amount</h4>
-                            <label for="basic">Basic 18+</label>
-                            <div class="counter counter-basic">
-                                <button class="button-minus">-</button>
-                                <input type="number" id="basic" name="quantity" min="1" max="50">
-                                <button class="button-plus">+</button>
+                            <div class="amount__basic">
+                                <p class="basic">Basic 18+</p>
+                                <div class="counter counter-basic">
+                                    <button class="button-minus">-</button>
+                                    <input type="number" id="basic" name="quantity" min="1" max="100" placeholder="1">
+                                    <button class="button-plus">+</button>
+                                </div>
                             </div>
-                            <label for="senior">Senior 65+</label>
-                            <div class="counter counter-senior">
-                                <button class="button-minus">-</button>
-                                <input type="number" id="senior" name="quantity" min="1" max="50">
-                                <button class="button-plus">+</button>
+                            <div class="amount__senior">
+                                <p class="senior">Senior 65+</p>
+                                <div class="counter counter-senior">
+                                    <button class="button-minus">-</button>
+                                    <input type="number" id="senior" name="quantity" min="1" max="100" placeholder="1">
+                                    <button class="button-plus">+</button>
+                                </div>
                             </div>
                             <h4 class="total">Total €220</h4>
                             <button class="button-buy">Buy Now</button>
@@ -256,6 +266,9 @@
 
         <!-- Footer -->
         <footer class="footer">
+            <div class="footer__links">
+                
+            </div>
 
         </footer>
     </div>

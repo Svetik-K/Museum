@@ -141,6 +141,19 @@ h4 {
   cursor: pointer;
 }
 
+.button-minus,
+.button-plus {
+  width: 50px;
+  height: 50px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+  border: none;
+  background-color: transparent;
+}
+
 .title_underlined {
   position: relative;
 }
@@ -578,6 +591,7 @@ h4 {
 
 .tickets__order {
   display: flex;
+  justify-content: space-between;
 }
 
 .tickets__image {
@@ -595,17 +609,34 @@ h4 {
   height: 211px;
 }
 
+.tickets__types input {
+  width: 17px;
+  height: 17px;
+  border: 2px solid #030303;
+  margin: 0;
+}
+
 .types__title {
   margin: 0 0 50px;
 }
 
-label {
+.radio-group {
+  margin-bottom: 15px;
+}
+
+label,
+.tickets__amount p {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 300;
   font-size: 2.2rem;
   line-height: 2.6rem;
   color: #030303;
+  margin: 0 0 15px;
+}
+
+label {
+  padding-left: 20px;
 }
 
 .amount__title {
@@ -615,15 +646,47 @@ label {
 .counter {
   width: 150px;
   height: 50px;
-  border: 2xp solid #030303;
+  display: flex;
+  align-items: center;
+  border: 3px solid #030303;
 }
 
 .counter input {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  text-align: center;
+  color: #030303;
   outline: none;
+  border: none;
 }
 
 .total {
-  margin-bottom: 60px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 3.3rem;
+  letter-spacing: 1.65px;
+  color: #030303;
+  margin: 0 0 60px;
+}
+
+.counter-basic {
+  margin-bottom: 10px;
+}
+
+.counter-senior {
+  margin-bottom: 50px;
+}
+
+.tickets__amount {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .panorama__wrapper {
@@ -647,12 +710,11 @@ label {
 }
 
 .contacts h2 {
-  margin-bottom: 75px;
+  margin-bottom: 100px;
 }
 
 .contacts__info {
   width: 282px;
-  height: 239px;
 }
 
 .info__title {
@@ -666,6 +728,6 @@ label {
   font-size: 2.2rem;
   line-height: 2.6rem;
   color: #030303;
-  margin-bottom: 0 0 25px;
+  margin: 0 0 25px;
 }
 /*# sourceMappingURL=style.css.map */
