@@ -202,7 +202,7 @@
                             <img src="./assets/images/general/tickets_img.jpg" alt="">
                         </div>
                         <div class="tickets__types">
-                            <h4 class="tickets-title">Ticket Type</h4>
+                            <h4 class="types__title">Ticket Type</h4>
                             <input type="radio" name="ticket-type" id="permanent">
                             <label for="permanent">Permanent exhibition</label><br><br>
                             <input type="radio" name="ticket-type" id="temporary">
@@ -211,17 +211,47 @@
                             <label for="combined">Combined Admission</label>
                         </div>
                         <div class="tickets__amount">
-                            <h4 class="amount-title">Amount</h4>
-                            <label for="basic">Basic 18+</label><br>
-                            <input type="number" id="basic" name="quantity" min="1" max="50"><br>
-                            <label for="senior">Senior 65+</label><br>
-                            <input type="number" id="senior" name="quantity" min="1" max="50"><br>
+                            <h4 class="amount__title">Amount</h4>
+                            <label for="basic">Basic 18+</label>
+                            <div class="counter counter-basic">
+                                <button class="button-minus">-</button>
+                                <input type="number" id="basic" name="quantity" min="1" max="50">
+                                <button class="button-plus">+</button>
+                            </div>
+                            <label for="senior">Senior 65+</label>
+                            <div class="counter counter-senior">
+                                <button class="button-minus">-</button>
+                                <input type="number" id="senior" name="quantity" min="1" max="50">
+                                <button class="button-plus">+</button>
+                            </div>
                             <h4 class="total">Total €220</h4>
                             <button class="button-buy">Buy Now</button>
                         </div>
                     </div>
                 </div>   
             </section>
+            <section class="panorama">
+                <div class="panorama__wrapper">
+                    <img src="./assets/images/general/panorama.jpg" alt="">
+                </div>  
+            </section>
+            <section class="contacts">
+                <div class="wrapper contacts__wrapper">
+                    <h2 class="title title_golden title_underlined">CONTACTS</h2>
+                    <div class="contacts__block">
+                        <div class="contacts__info">
+                            <h4 class="info__title">Palais Royal Musee&nbsp;du Louvre</h4>
+                            <p>address: 75001 Paris, France</p>
+                            <p>phone: +33(0) 1 40 20 50 50</p>
+                            <p>mail: info@louvre.fr</p>
+                        </div>
+                        <div class="map">
+                            <img src="./assets/images/general/map.jpg" alt="google map">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
         </main>
 
         <!-- Footer -->

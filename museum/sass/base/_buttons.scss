@@ -67,6 +67,7 @@
     background-image: url(../../../museum/assets/icons/youtube_icon.svg);
     background-size: 100%;
     border: none;
+    cursor: pointer;
 }
 .button-buy {
     width: 175px;
@@ -80,4 +81,5 @@
     background-color: $color-dark;
     color: $color-light;
     border: none;
+    cursor: pointer;
 }
