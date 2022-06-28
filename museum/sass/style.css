@@ -78,7 +78,7 @@ h4 {
   left: 42.5%;
   border: none;
   background-color: transparent;
-  background-image: url(../../../museum/assets/icons/video_button.svg);
+  background-image: url(../../../museum/assets/icons/video-button.svg);
   background-size: 100% 100%;
   cursor: pointer;
 }
@@ -87,7 +87,7 @@ h4 {
   width: 23px;
   height: 31px;
   background-color: transparent;
-  background-image: url(../../../museum/assets/icons/play_icon.svg);
+  background-image: url(../../../museum/assets/icons/play-icon.svg);
   border: none;
   background-size: 100% 100%;
   cursor: pointer;
@@ -107,7 +107,7 @@ h4 {
   width: 35px;
   height: 35px;
   background-color: transparent;
-  background-image: url(../../../museum/assets/icons/full_screen.svg);
+  background-image: url(../../../museum/assets/icons/full-screen.svg);
   border: none;
   background-size: 100% 100%;
   cursor: pointer;
@@ -120,7 +120,7 @@ h4 {
   top: 40%;
   left: 42.5%;
   background-color: transparent;
-  background-image: url(../../../museum/assets/icons/youtube_icon.svg);
+  background-image: url(../../../museum/assets/icons/youtube-icon.svg);
   background-size: 100%;
   border: none;
   cursor: pointer;
@@ -152,6 +152,7 @@ h4 {
   line-height: 3.8rem;
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .title_underlined {
@@ -604,7 +605,7 @@ footer {
   width: 10px;
   height: 12px;
   background-color: transparent;
-  background-image: url(../../../museum/assets/icons/brackets_left.svg);
+  background-image: url(../../../museum/assets/icons/brackets-left.svg);
   background-size: 100%;
 }
 
@@ -612,7 +613,7 @@ footer {
   width: 10px;
   height: 12px;
   background-color: transparent;
-  background-image: url(../../../museum/assets/icons/brackets_right.svg);
+  background-image: url(../../../museum/assets/icons/brackets-right.svg);
   background-size: 100%;
 }
 
