@@ -40,6 +40,15 @@ h3 {
   color: #030303;
 }
 
+h4 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 3.3rem;
+  color: #030303;
+}
+
 .welcome__button {
   width: 360px;
   height: 75px;
@@ -114,6 +123,35 @@ h3 {
   background-image: url(../../../museum/assets/icons/youtube_icon.svg);
   background-size: 100%;
   border: none;
+  cursor: pointer;
+}
+
+.button-buy {
+  width: 175px;
+  height: 50px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  letter-spacing: 2px;
+  background-color: #030303;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
+
+.button-minus,
+.button-plus {
+  width: 50px;
+  height: 50px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 3.8rem;
+  border: none;
+  background-color: transparent;
 }
 
 .title_underlined {
@@ -205,6 +243,91 @@ h3 {
 
 .navigation li a:hover {
   color: #9d8665;
+}
+
+footer {
+  background-color: #030303;
+}
+
+.footer__upper {
+  padding: 78px 0 41px;
+  border-bottom: 3px solid #9d8665;
+}
+
+.upper__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.upper__basics {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.upper__links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 25px;
+  margin-top: 5px;
+  padding: 0;
+}
+
+.upper__links-first {
+  padding-right: 30px;
+}
+
+.upper__links li a {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  transition: all ease-in-out 0.5s;
+}
+
+.upper__links li a:hover {
+  color: #9d8665;
+}
+
+.upper__icons {
+  display: flex;
+  align-items: flex-end;
+}
+
+.social-icons {
+  width: 340px;
+  height: 48px;
+  display: flex;
+  gap: 25px;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.footer__lower {
+  padding: 49px 0;
+}
+
+.lower__wrapper {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 2.2rem;
+  line-height: 2.2rem;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+.lower__wrapper a {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .welcome {
@@ -512,5 +635,184 @@ h3 {
 
 .gallery h2 {
   margin-bottom: 75px;
+}
+
+.gallery__images {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 456px;
+  column-gap: 36px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.column img {
+  width: 100%;
+}
+
+.column-one,
+.column-three {
+  padding-top: 50px;
+}
+
+.gallery__overlay {
+  width: 1440px;
+  height: 360px;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+
+.tickets {
+  padding: 75px 0;
+  background-color: #FFFFFF;
+}
+
+.tickets__order {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tickets__image {
+  width: 720px;
+  height: 550px;
+}
+
+.tickets__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.tickets__types {
+  width: 270px;
+  height: 211px;
+}
+
+.tickets__types input {
+  width: 17px;
+  height: 17px;
+  border: 2px solid #030303;
+  margin: 0;
+}
+
+.types__title {
+  margin: 0 0 50px;
+}
+
+.radio-group {
+  margin-bottom: 15px;
+}
+
+label,
+.tickets__amount p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  color: #030303;
+  margin: 0 0 15px;
+}
+
+label {
+  padding-left: 20px;
+}
+
+.amount__title {
+  margin: 0 0 25px;
+}
+
+.counter {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border: 3px solid #030303;
+}
+
+.counter input {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  text-align: center;
+  color: #030303;
+  outline: none;
+  border: none;
+}
+
+.total {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 3.3rem;
+  letter-spacing: 1.65px;
+  color: #030303;
+  margin: 0 0 60px;
+}
+
+.counter-basic {
+  margin-bottom: 10px;
+}
+
+.counter-senior {
+  margin-bottom: 50px;
+}
+
+.tickets__amount {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.panorama__wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.panorama img {
+  width: 100%;
+  height: auto;
+}
+
+.contacts {
+  padding: 75px 0;
+}
+
+.contacts__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contacts h2 {
+  margin-bottom: 100px;
+}
+
+.contacts__info {
+  width: 282px;
+}
+
+.info__title {
+  margin: 0 0 50px;
+}
+
+.contacts__info p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  color: #030303;
+  margin: 0 0 25px;
 }
 /*# sourceMappingURL=style.css.map */
