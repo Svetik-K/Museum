@@ -22,12 +22,12 @@
                 </div>
                 <nav class="header__navigation">
                     <ul class="navigation">
-                        <li><a href="#">Visiting</a></li>
-                        <li><a href="#">Explore</a></li>
-                        <li><a href="#">Video</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Tickets</a></li>
-                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#virtual">Visiting</a></li>
+                        <li><a href="#explore">Explore</a></li>
+                        <li><a href="#video">Video</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#tickets">Tickets</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
                     </ul>
                 </nav>
             </div>
@@ -36,7 +36,7 @@
         <!-- Main -->
         <main class="main">
 
-            <section class="welcome">
+            <section class="welcome" id="welcome">
                 <div class="wrapper welcome__wrapper">
                     <div class="welcome__info">
                         <h1>WELCOME TO&nbsp;THE LOUVRE</h1>
@@ -69,7 +69,7 @@
                 </div>    
             </section>
 
-            <section class="virtual-tour">
+            <section class="virtual-tour" id="virtual">
                 <div class="wrapper virtual-tour__wrapper">
                     <h2 class="title title_underlined title_golden">VIRTUAL TOUR</h2>
                     <div class="virtual-tour__cards">         
@@ -113,7 +113,7 @@
                 </div>     
             </section>
 
-            <section class="explore">
+            <section class="explore" id="explore">
                 <div class="wrapper explore__wrapper">
                     <div class="explore__text">
                         <h2 class="title title_underlined title_light">PICTURE EXPLORE</h2>
@@ -126,7 +126,8 @@
                     </div>
                 </div>
             </section>
-            <section class="video">
+
+            <section class="video" id="video">
                 <div class="wrapper video__wrapper">
                     <div class="video__text">
                         <h2 class="title title_golden">VIDEO JOURNEY</h2>
@@ -168,7 +169,8 @@
                     </div>
                 </div>   
             </section>
-            <section class="gallery">
+
+            <section class="gallery" id="gallery">
                 <div class="wrapper gallery__wrapper">
                     <h2 class="title title_light">ART GALLERY</h2>
                     <div class="gallery__images">
@@ -194,6 +196,7 @@
                     </div>
                 </div>  
             </section>
+
             <section class="tickets" id="tickets">
                 <div class="wrapper tickets__wrapper">
                     <h2 class="title title_golden title_underlined">BUY TICKETS</h2>
@@ -240,12 +243,14 @@
                     </div>
                 </div>   
             </section>
+
             <section class="panorama">
                 <div class="panorama__wrapper">
                     <img src="./assets/images/general/panorama.jpg" alt="">
                 </div>  
             </section>
-            <section class="contacts">
+
+            <section class="contacts" id="contacts">
                 <div class="wrapper contacts__wrapper">
                     <h2 class="title title_golden title_underlined">CONTACTS</h2>
                     <div class="contacts__block">
@@ -261,13 +266,46 @@
                     </div>
                 </div>
             </section>
-            
+    
         </main>
 
         <!-- Footer -->
         <footer class="footer">
-            <div class="footer__links">
-                
+            <div class="footer__upper">
+                <div class="wrapper upper__wrapper">
+                    <div class="upper__basics">
+                        <div class="logo">
+                            <div class="logo__icon"><img src="./assets/icons/logo.svg" alt="logo"></div>
+                            <div class="logo__text">LOUVRE</div>
+                        </div>
+                        <ul class="upper__links upper__links-first">
+                            <li><a href="#virtual">Visiting</a></li>
+                            <li><a href="#explore">Explore</a></li>
+                            <li><a href="#video">Video</a></li>
+                        </ul>
+                        <ul class="upper__links">
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#tickets">Tickets</a></li>
+                            <li><a href="#contacts">Contacts</a></li>
+                        </ul>
+                    </div>
+                    <div class="upper__icons">
+                        <ul class="social-icons">
+                            <li><a href="#"><img src="./assets/icons/Youtube.svg" alt="youtube"></a></li>
+                            <li><a href="#"><img src="./assets/icons/Instagram.svg" alt=""></a></li>
+                            <li><a href="#"><img src="./assets/icons/Facebook.svg" alt=""></a></li>
+                            <li><a href="#"><img src="./assets/icons/Twitter.svg" alt=""></a></li>
+                            <li><a href="#"><img src="./assets/icons/Pinterest.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__lower">
+                <div class="wrapper lower__wrapper">
+                    <span class="copyright">© 2022</span>
+                    <a href="#">The Rolling Scopes School</a>
+                    <a href="#">svetik-k</a>
+                </div>
             </div>
 
         </footer>
