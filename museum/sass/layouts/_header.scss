@@ -13,31 +13,28 @@
     gap: 25px;
 }
 .logo__text {
-    font-family: 'Forum';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2.8rem;
-    line-height: 3.1rem;
+    @extend %font-add;
+    @include font(2.8rem, 3.1rem, 400);
     letter-spacing: 5px;
     color: $color-light;
 }
 .navigation {
     display: flex;
     list-style: none;
-}
-.navigation li a {
-    text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 100;
-    font-size: 2.2rem;
-    line-height: 2.6rem;
-    letter-spacing: 2px;
-    color: $color-light;
-    margin-left: 56px;
-    transition: all ease-in-out 0.5s;
 
-    &:hover {
-        color: $color-gold;
+    li {
+        a {
+            text-decoration: none;
+            @extend %font-main;
+            @include font(2.2rem, 2.6rem, 100);
+            letter-spacing: 2px;
+            color: $color-light;
+            margin-left: 56px;
+            @extend %transition;
+        
+            &:hover {
+                color: $color-gold;
+            }
+        }
     }
 }

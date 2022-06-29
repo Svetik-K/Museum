@@ -1,27 +1,27 @@
 .contacts {
-    padding: 75px 0;
+    padding: 75px 0 70px;
 }
 .contacts__block {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
-.contacts h2 {
-    margin-bottom: 100px;
+.contacts {
+    h2 {
+        margin-bottom: 102px;
+    }
 }
 .contacts__info {
     width: 282px;
-    // height: 239px;
 }
 .info__title {
     margin: 0 0 50px;
 }
-.contacts__info p {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 2.2rem;
-    line-height: 2.6rem;
-    color: $color-dark;
-    margin: 0 0 25px;
+.contacts__info {
+    p {
+        @extend %font-main;
+        @include font(2.2rem, 2.6rem, 300);
+        color: $color-dark;
+        margin: 0 0 25px;
+    }
 }

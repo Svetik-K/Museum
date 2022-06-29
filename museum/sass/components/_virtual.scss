@@ -9,28 +9,30 @@
     column-gap: 60px;
     row-gap: 75px;
 }
-.title_golden {
-    margin-bottom: 100px;
+.virtual__title {
+    margin-bottom: 102px;
 }
-.virtual-card img {
+.virtual-card {
     width: 440px;
-    height: 285px;
-}
-.vt {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 100;
-    font-size: 2.2rem;
-    line-height: 2.6rem;
-    color: $color-dark;
-    margin: 20px 0 10px;
-}
-.google {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 100;
-    font-size: 1.8rem;
-    line-height: 2.1rem;
-    color: $color-dark;
-    margin: 0;
+    height: 424px;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .vt {
+        @extend %font-main;
+        @include font(2.2rem, 2.6rem, 100);
+        color: $color-dark;
+        margin: 20px 0 10px;
+    }
+
+    .google {
+        @extend %font-main;
+        @include font(1.8rem, 2.1rem, 100);
+        color: $color-dark;
+        margin: 0;
+    }
+
 }

@@ -6,19 +6,18 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 75px;
-}
-.video__text h2 {
-    margin: 0;
-}
-.video__text p {
-    width: 720px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 2.2rem;
-    line-height: 3.8rem;
-    color: $color-dark;
-    margin: 0;
+
+    h2 {
+        margin: 0;
+    }
+
+    p {
+        width: 720px;
+        @extend %font-main;
+        @include font(2.2rem, 3.8rem, 300);
+        color: $color-dark;
+        margin: 0;
+    }
 }
 .video__player {
     display: flex;

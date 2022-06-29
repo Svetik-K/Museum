@@ -2,6 +2,9 @@
     padding: 75px 0;
     background-color: $color-light;
 }
+.tickets__title {
+    margin-bottom: 102px;
+}
 .tickets__order {
     display: flex;
     justify-content: space-between;
@@ -9,20 +12,22 @@
 .tickets__image {
     width: 720px;
     height: 550px;
-}
-.tickets__image img {
-    width: 100%;
-    height: 100%;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
 }
 .tickets__types {
     width: 270px;
     height: 211px;
-}
-.tickets__types input {
-    width: 17px;
-    height: 17px;
-    border: 2px solid $color-dark;
-    margin: 0;
+
+    input {
+        width: 17px;
+        height: 17px;
+        border: 2px solid $color-dark;
+        margin: 0;
+    }
 }
 .types__title {
     margin: 0 0 50px;
@@ -30,18 +35,26 @@
 .radio-group {
     margin-bottom: 15px;
 }
-label,
-.tickets__amount p {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 2.2rem;
-    line-height: 2.6rem;
-    color: $color-dark;
-    margin: 0 0 15px;  
+.tickets__amount {
+    p {
+        @extend %font-main;
+        @include font(2.2rem, 2.6rem, 300);
+        color: $color-dark;
+        margin: 0 0 15px;
+    }   
 }
 label {
-   padding-left: 20px;
+    @extend %font-main;
+    @include font(2.2rem, 2.6rem, 300);
+    color: $color-dark;
+    margin: 0 0 15px;
+    padding-left: 20px;
+}
+.tickets__amount {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 .amount__title {
     margin: 0 0 25px;
@@ -52,24 +65,19 @@ label {
     display: flex;
     align-items: center;
     border: 3px solid $color-dark;
-}
-.counter input{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 2.2rem;
-    line-height: 2.6rem;
-    text-align: center;
-    color: $color-dark;
-    outline: none;
-    border: none;
+
+    input {
+        @extend %font-main;
+        @include font(2.2rem, 2.6rem, 300);
+        text-align: center;
+        color: $color-dark;
+        outline: none;
+        border: none;
+    }
 }
 .total {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.8rem;
-    line-height: 3.3rem;
+    @extend %font-main;
+    @include font(2.8rem, 3.3rem, 700);
     letter-spacing: 1.65px;
     color: $color-dark;
     margin: 0 0 60px;
@@ -79,10 +87,4 @@ label {
 }
 .counter-senior {
     margin-bottom: 50px;
-}
-.tickets__amount {
-    width: 330px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
 }

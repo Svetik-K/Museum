@@ -1,3 +1,16 @@
+.welcome__button, .navigation li a, .upper__links li a {
+  transition: all ease-in-out 0.5s;
+}
+
+h4, .welcome__button, .button-buy, .button-minus,
+.button-plus, .navigation li a, .upper__links li a, .lower__wrapper, .welcome__info p, .slider-pagination__counter, .virtual-card .vt, .virtual-card .google, .explore__text p, .video__text p, .tickets__amount p, label, .counter input, .total, .contacts__info p {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, .logo__text {
+  font-family: 'Forum', cursive;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -10,60 +23,54 @@ html, body {
 }
 
 h1 {
-  font-family: 'Forum';
-  font-style: normal;
-  font-weight: 400;
   font-size: 8rem;
   line-height: 9rem;
+  font-weight: 400;
+  font-style: normal;
   letter-spacing: 5px;
   color: #FFFFFF;
   margin: 0 0 25px 0;
 }
 
 h2 {
-  font-family: 'Forum';
-  font-style: normal;
-  font-weight: 400;
   font-size: 8rem;
   line-height: 9rem;
+  font-weight: 400;
+  font-style: normal;
   letter-spacing: 5px;
   margin: 0 0 25px 0;
 }
 
 h3 {
-  font-family: 'Forum';
-  font-style: normal;
-  font-weight: 400;
   font-size: 3.2rem;
   line-height: 3.5rem;
+  font-weight: 400;
+  font-style: normal;
   letter-spacing: 5px;
   color: #030303;
 }
 
 h4 {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
   font-size: 2.8rem;
   line-height: 3.3rem;
+  font-weight: 700;
+  font-style: normal;
   color: #030303;
 }
 
 .welcome__button {
   width: 360px;
   height: 75px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 300;
   font-size: 2.2rem;
   line-height: 2.6rem;
+  font-weight: 300;
+  font-style: normal;
   letter-spacing: 2px;
   color: #FFFFFF;
   background-color: #710707;
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  transition: all ease-in-out 0.5s;
 }
 
 .welcome__button:hover {
@@ -129,11 +136,10 @@ h4 {
 .button-buy {
   width: 175px;
   height: 50px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 300;
   font-size: 2.2rem;
   line-height: 2.6rem;
+  font-weight: 300;
+  font-style: normal;
   letter-spacing: 2px;
   background-color: #030303;
   color: #FFFFFF;
@@ -145,11 +151,10 @@ h4 {
 .button-plus {
   width: 50px;
   height: 50px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 3.2rem;
   line-height: 3.8rem;
+  font-weight: 400;
+  font-style: normal;
   border: none;
   background-color: transparent;
   cursor: pointer;
@@ -162,7 +167,7 @@ h4 {
 .title_underlined::after {
   content: "";
   position: absolute;
-  bottom: -25px;
+  bottom: -27px;
   display: block;
   width: 100%;
   height: 3px;
@@ -178,7 +183,7 @@ h4 {
   margin: 25px 0 0 0;
 }
 
-.virtual-card__title:after {
+.virtual-card__title::after {
   content: "";
   position: absolute;
   display: block;
@@ -215,11 +220,10 @@ h4 {
 }
 
 .logo__text {
-  font-family: 'Forum';
-  font-style: normal;
-  font-weight: 400;
   font-size: 2.8rem;
   line-height: 3.1rem;
+  font-weight: 400;
+  font-style: normal;
   letter-spacing: 5px;
   color: #FFFFFF;
 }
@@ -231,15 +235,13 @@ h4 {
 
 .navigation li a {
   text-decoration: none;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 100;
   font-size: 2.2rem;
   line-height: 2.6rem;
+  font-weight: 100;
+  font-style: normal;
   letter-spacing: 2px;
   color: #FFFFFF;
   margin-left: 56px;
-  transition: all ease-in-out 0.5s;
 }
 
 .navigation li a:hover {
@@ -251,7 +253,7 @@ footer {
 }
 
 .footer__upper {
-  padding: 78px 0 41px;
+  padding: 80px 0 41px;
   border-bottom: 3px solid #9d8665;
 }
 
@@ -267,6 +269,10 @@ footer {
   align-items: flex-start;
 }
 
+.upper__basics .logo {
+  padding-top: 4px;
+}
+
 .upper__links {
   display: flex;
   flex-direction: column;
@@ -276,24 +282,22 @@ footer {
   padding: 0;
 }
 
-.upper__links-first {
-  padding-right: 30px;
-}
-
 .upper__links li a {
   text-decoration: none;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 100;
   font-size: 2.2rem;
   line-height: 2.6rem;
+  font-weight: 100;
+  font-style: normal;
   letter-spacing: 2px;
   color: #FFFFFF;
-  transition: all ease-in-out 0.5s;
 }
 
 .upper__links li a:hover {
   color: #9d8665;
+}
+
+.upper__links-first {
+  padding-right: 30px;
 }
 
 .upper__icons {
@@ -317,11 +321,10 @@ footer {
 .lower__wrapper {
   display: flex;
   justify-content: space-between;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 100;
   font-size: 2.2rem;
   line-height: 2.2rem;
+  font-weight: 100;
+  font-style: normal;
   letter-spacing: 2px;
   color: #FFFFFF;
 }
@@ -329,6 +332,11 @@ footer {
 .lower__wrapper a {
   text-decoration: none;
   color: #FFFFFF;
+}
+
+.lower__wrapper .school {
+  display: block;
+  padding-left: 15px;
 }
 
 .welcome {
@@ -348,11 +356,10 @@ footer {
 }
 
 .welcome__info p {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 300;
   font-size: 2.8rem;
   line-height: 3.3rem;
+  font-weight: 300;
+  font-style: normal;
   letter-spacing: 2px;
   margin-top: 0;
   margin-bottom: 75px;
@@ -381,11 +388,10 @@ footer {
   width: 76px;
   display: flex;
   justify-content: space-between;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 2.2rem;
   line-height: 4rem;
+  font-weight: 400;
+  font-style: normal;
   color: #FFFFFF;
 }
 
@@ -422,31 +428,34 @@ footer {
   row-gap: 75px;
 }
 
-.title_golden {
-  margin-bottom: 100px;
+.virtual__title {
+  margin-bottom: 102px;
+}
+
+.virtual-card {
+  width: 440px;
+  height: 424px;
 }
 
 .virtual-card img {
-  width: 440px;
-  height: 285px;
+  width: 100%;
+  height: auto;
 }
 
-.vt {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 100;
+.virtual-card .vt {
   font-size: 2.2rem;
   line-height: 2.6rem;
+  font-weight: 100;
+  font-style: normal;
   color: #030303;
   margin: 20px 0 10px;
 }
 
-.google {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 100;
+.virtual-card .google {
   font-size: 1.8rem;
   line-height: 2.1rem;
+  font-weight: 100;
+  font-style: normal;
   color: #030303;
   margin: 0;
 }
@@ -462,16 +471,6 @@ footer {
   gap: 60px;
 }
 
-.explore__text p {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 2.2rem;
-  line-height: 3.8rem;
-  color: #FFFFFF;
-  margin: 0 0 26px 0;
-}
-
 .explore__text {
   width: 660px;
 }
@@ -482,6 +481,15 @@ footer {
 
 .explore__text span {
   color: #9d8665;
+}
+
+.explore__text p {
+  font-size: 2.2rem;
+  line-height: 3.8rem;
+  font-weight: 300;
+  font-style: normal;
+  color: #FFFFFF;
+  margin: 0 0 26px;
 }
 
 .explore__image {
@@ -505,11 +513,10 @@ footer {
 
 .video__text p {
   width: 720px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 300;
   font-size: 2.2rem;
   line-height: 3.8rem;
+  font-weight: 300;
+  font-style: normal;
   color: #030303;
   margin: 0;
 }
@@ -675,6 +682,10 @@ footer {
   background-color: #FFFFFF;
 }
 
+.tickets__title {
+  margin-bottom: 102px;
+}
+
 .tickets__order {
   display: flex;
   justify-content: space-between;
@@ -710,19 +721,30 @@ footer {
   margin-bottom: 15px;
 }
 
-label,
 .tickets__amount p {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 300;
   font-size: 2.2rem;
   line-height: 2.6rem;
+  font-weight: 300;
+  font-style: normal;
   color: #030303;
   margin: 0 0 15px;
 }
 
 label {
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  font-weight: 300;
+  font-style: normal;
+  color: #030303;
+  margin: 0 0 15px;
   padding-left: 20px;
+}
+
+.tickets__amount {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .amount__title {
@@ -738,11 +760,10 @@ label {
 }
 
 .counter input {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 300;
   font-size: 2.2rem;
   line-height: 2.6rem;
+  font-weight: 300;
+  font-style: normal;
   text-align: center;
   color: #030303;
   outline: none;
@@ -750,11 +771,10 @@ label {
 }
 
 .total {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
   font-size: 2.8rem;
   line-height: 3.3rem;
+  font-weight: 700;
+  font-style: normal;
   letter-spacing: 1.65px;
   color: #030303;
   margin: 0 0 60px;
@@ -768,13 +788,6 @@ label {
   margin-bottom: 50px;
 }
 
-.tickets__amount {
-  width: 330px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
 .panorama__wrapper {
   max-width: 1920px;
   margin: 0 auto;
@@ -786,7 +799,7 @@ label {
 }
 
 .contacts {
-  padding: 75px 0;
+  padding: 75px 0 70px;
 }
 
 .contacts__block {
@@ -796,7 +809,7 @@ label {
 }
 
 .contacts h2 {
-  margin-bottom: 100px;
+  margin-bottom: 102px;
 }
 
 .contacts__info {
@@ -808,11 +821,10 @@ label {
 }
 
 .contacts__info p {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 300;
   font-size: 2.2rem;
   line-height: 2.6rem;
+  font-weight: 300;
+  font-style: normal;
   color: #030303;
   margin: 0 0 25px;
 }
