@@ -79,7 +79,7 @@ h4 {
   border: none;
   background-color: transparent;
   background-image: url(../../../museum/assets/icons/video-button.svg);
-  background-size: 100% 100%;
+  background-size: 100%;
   cursor: pointer;
 }
 
@@ -89,7 +89,7 @@ h4 {
   background-color: transparent;
   background-image: url(../../../museum/assets/icons/play-icon.svg);
   border: none;
-  background-size: 100% 100%;
+  background-size: 100%;
   cursor: pointer;
 }
 
@@ -99,7 +99,7 @@ h4 {
   background-color: transparent;
   background-image: url(../../../museum/assets/icons/volume.svg);
   border: none;
-  background-size: 100% 100%;
+  background-size: 100%;
   cursor: pointer;
 }
 
@@ -109,7 +109,7 @@ h4 {
   background-color: transparent;
   background-image: url(../../../museum/assets/icons/full-screen.svg);
   border: none;
-  background-size: 100% 100%;
+  background-size: 100%;
   cursor: pointer;
 }
 
