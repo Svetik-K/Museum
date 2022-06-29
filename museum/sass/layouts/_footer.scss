@@ -2,7 +2,7 @@ footer {
     background-color: $color-dark;
 }
 .footer__upper {
-    padding: 78px 0 41px;
+    padding: 80px 0 41px;
     border-bottom: 3px solid $color-gold;
 }
 .upper__wrapper {
@@ -14,6 +14,10 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+
+    .logo {
+        padding-top: 4px;
+    }
 }
 .upper__links {
     display: flex;
@@ -22,24 +26,24 @@ footer {
     row-gap: 25px;
     margin-top: 5px;
     padding: 0;
+
+    li {
+        a {
+            text-decoration: none;
+            @extend %font-main;
+            @include font(2.2rem, 2.6rem, 100);
+            letter-spacing: 2px;
+            color: $color-light;
+            @extend %transition;
+
+            &:hover {
+                color: $color-gold;
+            }
+        }
+    }
 }
 .upper__links-first {
     padding-right: 30px;
-}
-.upper__links li a {
-    text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 100;
-    font-size: 2.2rem;
-    line-height: 2.6rem;
-    letter-spacing: 2px;
-    color: $color-light;
-    transition: all ease-in-out 0.5s;
-
-    &:hover {
-        color: $color-gold;
-    }
 }
 .upper__icons {
     display: flex;
@@ -59,15 +63,18 @@ footer {
 .lower__wrapper {
     display: flex;
     justify-content: space-between;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 100;
-    font-size: 2.2rem;
-    line-height: 2.2rem;
+    @extend %font-main;
+    @include font(2.2rem, 2.2rem, 100);
     letter-spacing: 2px;
     color: $color-light;
-}
-.lower__wrapper a {
-    text-decoration: none;
-    color: $color-light;
+
+    a {
+        text-decoration: none;
+        color: $color-light;
+    }
+
+    .school {
+        display: block;
+        padding-left: 15px;
+    }
 }
