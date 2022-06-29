@@ -3,11 +3,13 @@
 }
 .virtual-tour__cards {
     display: flex;
-    flex-basis: 440px;
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 60px;
     row-gap: 75px;
+    >* {
+        flex-basis: 440px;
+    }
 }
 .virtual__title {
     margin-bottom: 102px;

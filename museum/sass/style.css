@@ -1,9 +1,9 @@
-.welcome__button, .navigation li a, .upper__links li a {
+.welcome__button, .upper__links li a, .navigation__link {
   transition: all ease-in-out 0.5s;
 }
 
 h4, .welcome__button, .button-buy, .button-minus,
-.button-plus, .navigation li a, .upper__links li a, .lower__wrapper, .welcome__info p, .slider-pagination__counter, .virtual-card .vt, .virtual-card .google, .explore__text p, .video__text p, .tickets__amount p, label, .counter input, .total, .contacts__info p {
+.button-plus, .upper__links li a, .lower__wrapper, .navigation, .welcome__info p, .slider-pagination__counter, .virtual-card .vt, .virtual-card .google, .explore__text p, .video__text p, .tickets__amount p, label, .counter input, .total, .contacts__info p {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -11,11 +11,17 @@ h1, h2, h3, .logo__text {
   font-family: 'Forum', cursive;
 }
 
-html, body {
+html {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
   font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -58,6 +64,11 @@ h4 {
   color: #030303;
 }
 
+.button {
+  border: none;
+  cursor: pointer;
+}
+
 .welcome__button {
   width: 360px;
   height: 75px;
@@ -68,9 +79,7 @@ h4 {
   letter-spacing: 2px;
   color: #FFFFFF;
   background-color: #710707;
-  border: none;
   border-radius: 10px;
-  cursor: pointer;
 }
 
 .welcome__button:hover {
@@ -83,41 +92,33 @@ h4 {
   position: absolute;
   top: 29%;
   left: 42.5%;
-  border: none;
   background-color: transparent;
-  background-image: url(../../assets/icons/video-button.svg);
+  background-image: url("../assets/icons/video-button.svg");
   background-size: 100%;
-  cursor: pointer;
 }
 
 .button-play {
   width: 23px;
   height: 31px;
   background-color: transparent;
-  background-image: url(../../assets/icons/play-icon.svg);
-  border: none;
+  background-image: url("../assets/icons/play-icon.svg");
   background-size: 100%;
-  cursor: pointer;
 }
 
 .button-volume {
   width: 38px;
   height: 31px;
   background-color: transparent;
-  background-image: url(../../assets/icons/volume.svg);
-  border: none;
+  background-image: url("../assets/icons/volume.svg");
   background-size: 100%;
-  cursor: pointer;
 }
 
 .button-screen {
   width: 35px;
   height: 35px;
   background-color: transparent;
-  background-image: url(../../assets/icons/full-screen.svg);
-  border: none;
+  background-image: url("../assets/icons/full-screen.svg");
   background-size: 100%;
-  cursor: pointer;
 }
 
 .button-youtube {
@@ -127,10 +128,8 @@ h4 {
   top: 40%;
   left: 42.5%;
   background-color: transparent;
-  background-image: url(../../assets/icons/youtube-icon.svg);
+  background-image: url("../assets/icons/youtube-icon.svg");
   background-size: 100%;
-  border: none;
-  cursor: pointer;
 }
 
 .button-buy {
@@ -143,8 +142,6 @@ h4 {
   letter-spacing: 2px;
   background-color: #030303;
   color: #FFFFFF;
-  border: none;
-  cursor: pointer;
 }
 
 .button-minus,
@@ -155,9 +152,7 @@ h4 {
   line-height: 3.8rem;
   font-weight: 400;
   font-style: normal;
-  border: none;
   background-color: transparent;
-  cursor: pointer;
 }
 
 .title_underlined {
@@ -226,26 +221,6 @@ h4 {
   font-style: normal;
   letter-spacing: 5px;
   color: #FFFFFF;
-}
-
-.navigation {
-  display: flex;
-  list-style: none;
-}
-
-.navigation li a {
-  text-decoration: none;
-  font-size: 2.2rem;
-  line-height: 2.6rem;
-  font-weight: 100;
-  font-style: normal;
-  letter-spacing: 2px;
-  color: #FFFFFF;
-  margin-left: 56px;
-}
-
-.navigation li a:hover {
-  color: #9d8665;
 }
 
 footer {
@@ -339,6 +314,26 @@ footer {
   padding-left: 15px;
 }
 
+.navigation {
+  display: flex;
+  list-style: none;
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-left: 56px;
+}
+
+.navigation__link:hover {
+  color: #9d8665;
+}
+
 .welcome {
   background-color: #030303;
 }
@@ -349,7 +344,7 @@ footer {
 }
 
 .welcome__info {
-  width: 598px;
+  max-width: 598px;
   position: absolute;
   top: 150px;
   left: 0;
@@ -421,11 +416,14 @@ footer {
 
 .virtual-tour__cards {
   display: flex;
-  flex-basis: 440px;
   flex-direction: row;
   flex-wrap: wrap;
   column-gap: 60px;
   row-gap: 75px;
+}
+
+.virtual-tour__cards > * {
+  flex-basis: 440px;
 }
 
 .virtual__title {
@@ -612,7 +610,7 @@ footer {
   width: 10px;
   height: 12px;
   background-color: transparent;
-  background-image: url(../../assets/icons/brackets-left.svg);
+  background-image: url("../assets/icons/brackets-left.svg");
   background-size: 100%;
 }
 
@@ -620,7 +618,7 @@ footer {
   width: 10px;
   height: 12px;
   background-color: transparent;
-  background-image: url(../../assets/icons/brackets-right.svg);
+  background-image: url("../assets/icons/brackets-right.svg");
   background-size: 100%;
 }
 
