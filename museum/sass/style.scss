@@ -7,11 +7,6 @@
 @import "base/buttons";
 @import "base/titles";
 
-//Layouts
-@import "layouts/wrapper";
-@import "layouts/header";
-@import "layouts/footer";
-
 //Components
 @import "components/navigation";
 @import "components/welcome";
@@ -22,3 +17,9 @@
 @import "components/tickets";
 @import "components/panorama";
 @import "components/contacts";
+
+//Layouts
+@import "layouts/wrappers";
+@import "layouts/header";
+@import "layouts/footer";
+@import "layouts/adaptive";

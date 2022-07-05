@@ -1,20 +1,15 @@
-.gallery {
-    padding: 75px 0 0 0;
+.gallery {  
     background-color: $color-dark;
-
-    h2 {
-        margin-bottom: 75px;
-    }
 }
 .gallery__images {
     position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex-basis: 456px;
     column-gap: 36px;
 }
 .column {
+    width: 31.66%;
     display: flex;
     flex-direction: column;
     row-gap: 24px;
@@ -28,7 +23,7 @@
     padding-top: 50px;
 }
 .gallery__overlay {
-    width: $content-width;
+    width: 100%;
     height: 360px;
     position: absolute;
     bottom: 0;

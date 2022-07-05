@@ -1,0 +1,31 @@
+.wrapper {
+    max-width: $content-width;
+    margin: 0 auto;
+}
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.explore__wrapper {
+    display: flex;
+    gap: 60px;
+    padding: 75px 0;
+}
+.video__wrapper {
+    padding: 75px 0;
+}
+.gallery__wrapper {
+    padding: 75px 0 0 0;
+
+    h2 {
+        margin-bottom: 75px;
+    }
+}
+.tickets__wrapper {
+    padding: 75px 0;
+}
+.contacts__wrapper {
+    padding: 75px 0 70px;
+}
