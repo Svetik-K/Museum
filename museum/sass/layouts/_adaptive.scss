@@ -1,8 +1,45 @@
 @media only screen and (max-width: 1440px) {
+    .header__wrapper {
+        padding: 40px 20px;
+    }
+    .welcome__wrapper {
+        padding: 114px 20px 246px;
+    }
+    .virtual-tour {
+        padding: 75px 20px;
+    }
+    .explore__wrapper {
+        padding: 75px 20px;
+    }
+    .gallery__wrapper {
+        padding: 75px 20px 0;
+    }
+    .video__wrapper {
+        padding: 75px 20px;
+    }
+    .tickets__wrapper {
+        padding: 75px 20px;
+    }
+    .contacts__wrapper {
+        padding: 75px 20px 70px;
+    }
+    .footer__upper {
+        padding: 80px 20px 41px;
+    }
+    .footer__lower {
+        padding: 49px 20px;
+    }
     .column {
         width: 30.8%;
     } 
 }
+
+@media only screen and (max-width: 1200px) {
+    .navigation__link {
+        margin-left: 35px;
+    }
+} 
+
 
 @media only screen and (max-width: 1024px) {
     // Header
@@ -16,12 +53,10 @@
         padding: 48px 20px;
     }
     // Welcome
-    .welcome {
-        padding: 0 20px;
-    }
+
     .welcome__wrapper {
         padding-top: 50px;
-        padding-bottom: 192px;
+        // padding-bottom: 192px;
     }
     h1 {
         @include font(5rem, 9rem, 400);
@@ -37,21 +72,7 @@
         height: 60px;
         @include font(2rem, 2.3rem, 300);
     }
-    .slider-pagination {
-        width: 69.4%;
-        padding-left: 204px;
-    }
-    .slider-pagination__counter {
-        width: 71px;
-        @include font(2rem, 4rem, 400);
-    }
-    .slider-pagination__dots {
-        width: 160px;
-    }
-    .dot {
-        width: 12px;
-        height: 12px;
-    }
+
     // Virtual
     h2 {
         @include font(5rem, 7.5rem, 400);

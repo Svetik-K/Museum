@@ -3,7 +3,7 @@
 }
 
 h4, .welcome__button, .button-buy, .button-minus,
-.button-plus, .navigation, .welcome__info p, .slider-pagination__counter, .virtual-card .vt, .virtual-card .google, .explore__text p, .video__text p, label, .tickets__amount p, .counter input, .total, .contacts__info p, .upper__links li a, .lower__wrapper {
+.button-plus, .navigation, .welcome__info p, .virtual-card .vt, .virtual-card .google, .explore__text p, .video__text p, label, .tickets__amount p, .counter input, .total, .contacts__info p, .upper__links li a, .lower__wrapper {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -217,18 +217,17 @@ h4 {
 }
 
 .welcome__wrapper {
-  position: relative;
   display: flex;
-  padding-top: 150px;
-  padding-bottom: 272px;
-  background-image: url(../assets/images/general/welcome_liza.jpg), linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.5) 16.19%, rgba(0, 0, 0, 0) 30.73%);
+  justify-content: flex-start;
+  padding: 114px 0 246px;
+  background-image: url(../assets/images/general/louvre_bg.jpg);
   background-repeat: no-repeat;
-  background-position: top right;
-  background-size: 69.4%;
+  background-position: bottom right;
+  background-size: 84.3%;
 }
 
 .welcome__info {
-  width: 41.5%;
+  max-width: 600px;
 }
 
 .welcome__info p {
@@ -240,50 +239,6 @@ h4 {
   margin-top: 0;
   margin-bottom: 75px;
   color: #FFFFFF;
-}
-
-.slider-pagination {
-  width: 600px;
-  height: 120px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 39px 75px 41px;
-  background-color: #030303;
-}
-
-.slider-pagination__counter {
-  width: 76px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 2.2rem;
-  line-height: 4rem;
-  font-weight: 400;
-  font-style: normal;
-  color: #FFFFFF;
-}
-
-.slider-pagination__dots {
-  width: 180px;
-  display: flex;
-  gap: 25px;
-}
-
-.dot {
-  width: 16px;
-  height: 16px;
-  background-color: #FFFFFF;
-}
-
-.dot_active {
-  background-color: #9d8665;
-}
-
-.arrow-right {
-  margin-left: 20px;
 }
 
 .virtual-tour {
@@ -368,6 +323,7 @@ h4 {
 
 .video__text {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 75px;
@@ -516,20 +472,22 @@ h4 {
 .gallery__images {
   position: relative;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  column-gap: 36px;
+  justify-content: space-between;
 }
 
 .column {
-  width: 31.66%;
+  max-width: 31.66%;
   display: flex;
   flex-direction: column;
-  row-gap: 24px;
 }
 
 .column img {
   width: 100%;
+  padding-bottom: 24px;
+}
+
+.column img:last-child {
+  padding-bottom: 0;
 }
 
 .column-one,
@@ -859,8 +817,44 @@ footer {
 }
 
 @media only screen and (max-width: 1440px) {
+  .header__wrapper {
+    padding: 40px 20px;
+  }
+  .welcome__wrapper {
+    padding: 114px 20px 246px;
+  }
+  .virtual-tour {
+    padding: 75px 20px;
+  }
+  .explore__wrapper {
+    padding: 75px 20px;
+  }
+  .gallery__wrapper {
+    padding: 75px 20px 0;
+  }
+  .video__wrapper {
+    padding: 75px 20px;
+  }
+  .tickets__wrapper {
+    padding: 75px 20px;
+  }
+  .contacts__wrapper {
+    padding: 75px 20px 70px;
+  }
+  .footer__upper {
+    padding: 80px 20px 41px;
+  }
+  .footer__lower {
+    padding: 49px 20px;
+  }
   .column {
     width: 30.8%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .navigation__link {
+    margin-left: 35px;
   }
 }
 
@@ -874,12 +868,8 @@ footer {
   .header__wrapper {
     padding: 48px 20px;
   }
-  .welcome {
-    padding: 0 20px;
-  }
   .welcome__wrapper {
     padding-top: 50px;
-    padding-bottom: 192px;
   }
   h1 {
     font-size: 5rem;
@@ -902,24 +892,6 @@ footer {
     line-height: 2.3rem;
     font-weight: 300;
     font-style: normal;
-  }
-  .slider-pagination {
-    width: 69.4%;
-    padding-left: 204px;
-  }
-  .slider-pagination__counter {
-    width: 71px;
-    font-size: 2rem;
-    line-height: 4rem;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .slider-pagination__dots {
-    width: 160px;
-  }
-  .dot {
-    width: 12px;
-    height: 12px;
   }
   h2 {
     font-size: 5rem;
