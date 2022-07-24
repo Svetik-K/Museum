@@ -1,8 +1,6 @@
-.video {
-    padding: 75px 0;
-}
 .video__text {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 75px;
@@ -12,7 +10,7 @@
     }
 
     p {
-        width: 720px;
+        width: 50%;
         @extend %font-main;
         @include font(2.2rem, 3.8rem, 300);
         color: $color-dark;
@@ -20,22 +18,23 @@
     }
 }
 .video__player {
+    width: 100%;
     display: flex;
     flex-direction: column;
     position: relative;
     margin-bottom: 40px;
 }
 .video__controllers {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 85px;
-    padding: 27px 28px 27px 30px;
+    padding: 27px 28px 25px 30px;
     background-color: $color-dark;
 }
 .progress-bar {
     -webkit-appearance: none;
-    width: 930px;
+    width: 67.3%;
     height: 8px;
     background: $color-grey;
     background-image: linear-gradient($color-red, $color-red);
@@ -58,7 +57,7 @@
 }
 .volume-bar {
     -webkit-appearance: none;
-    width: 155px;
+    width: 11.2%;
     height: 8px;
     background: $color-grey;
     background-image: linear-gradient($color-red, $color-red);
@@ -80,12 +79,18 @@
     background: transparent;
 }
 .video__gallery {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 37px;
 }
 .video-item {
+    width: 31.4%;
     position: relative;
+
+    img {
+        width: 100%;
+    }
 }
 .video__pagination {
     width: 200px;

@@ -1,14 +1,9 @@
 .explore {
-    padding: 75px 0;
     background: $color-dark;
 }
-.explore__wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 60px;
-}
 .explore__text {
-    width: 660px;
+    width: 45.8%;
+    
     h2 {
         margin-bottom: 102px;
     }
@@ -23,5 +18,11 @@
     }  
 }
 .explore__image {
+    width: 50%;
     padding-top: 15px;
+   
+
+    img {
+        width: 100%;
+    }
 }

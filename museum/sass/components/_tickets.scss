@@ -1,5 +1,4 @@
 .tickets {
-    padding: 75px 0;
     background-color: $color-light;
 }
 .tickets__title {
@@ -10,8 +9,7 @@
     justify-content: space-between;
 }
 .tickets__image {
-    width: 720px;
-    height: 550px;
+    width: 50%;
 
     img {
         width: 100%;
@@ -19,8 +17,7 @@
     }
 }
 .tickets__types {
-    width: 270px;
-    height: 211px;
+    width: 18.75%;
 
     input {
         width: 17px;
@@ -35,14 +32,6 @@
 .radio-group {
     margin-bottom: 15px;
 }
-.tickets__amount {
-    p {
-        @extend %font-main;
-        @include font(2.2rem, 2.6rem, 300);
-        color: $color-dark;
-        margin: 0 0 15px;
-    }   
-}
 label {
     @extend %font-main;
     @include font(2.2rem, 2.6rem, 300);
@@ -50,11 +39,19 @@ label {
     margin: 0 0 15px;
     padding-left: 20px;
 }
+
 .tickets__amount {
-    width: 330px;
+    width: 22.9%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+
+    p {
+        @extend %font-main;
+        @include font(2.2rem, 2.6rem, 300);
+        color: $color-dark;
+        margin: 0 0 15px;
+    }   
 }
 .amount__title {
     margin: 0 0 25px;
